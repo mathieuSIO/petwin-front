@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Index</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <div class="nav">
+                    <ul class="nav-link">
+                        <li>
+                            <a href="">contest</a>
+                        </li>
+                        <li>
+                            <a href="">Participate</a>
+                        </li>
+                    </ul>
+
+                    <a href="index.html">
+                        <img src="assets/img/petwin-01-1.svg" class="logo-nav">
+                    </a>
+
+                    <ul class="nav-link-right">
+                        <li>
+                            <a href="">
+                                <img src="assets/img/lucide-vote-9.svg" style="margin-right:4px;margin-top:-3px;">
+                                214K + votes
+                                <span class="ic_refresh">
+                                    <img src="assets/img/ic-round-refresh.svg">
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" style="padding-left: 7px;">
+                                <img src="assets/img/rectangle-25-22.png" class="rounded-full h-6 mr-1">
+                                John dem
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="" class="nav-link-right-active">
+                            Lvl 12
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="" class="bell">
+                                <img src="assets/img/group-147.png" >
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="new-part-title">
+                    <img class="new-part-title-img" src="assets/img/group-129.png" alt="" >
+                    <h2 class="new-part-title-label">CONTESTS</h2>
+                    <p class="new-part-title-text">Vote for your Favorite pet and help them to ge   t the first place </p>
+                </div>
+            </div>
+        </header>
+
+        <div style="margin-top: 500px;">
+
+            <!-- Boutons d'onglets -->
+            <div class="tablink">
+                <button class="tab-open" onclick="openTab(event, 'Tab1')">CONTESTS</button>
+            </div>
+            <div class="tablink">
+                <button  onclick="openTab(event, 'Tab2')">WINNERS</button>
+            </div>
+            <div class="tablink">
+                <button  onclick="openTab(event, 'Tab3')">TESTIMONIALS</button>
+            </div>
+
+
+
+            <!-- Contenus des onglets -->
+            <div id="Tab1" class="tabcontent default-tab grid grid-cols-2 gap-8">
+
+                <div>
+                    <div class="image image-container">
+                        <img class="img-contest-winner" src="assets/img/Rectangle7.png" />
+
+                        <div class="overlay-top-right">
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+                                <g clip-path="url(#clip0_130_7876)">
+                                  <path d="M4.29798 10.2856C4.13575 10.2856 3.94107 10.2532 3.81128 10.1558C3.38947 9.92871 2.87032 9.34467 2.87032 7.78722C2.87032 4.54254 1.11819 2.66063 1.11819 2.66063L0.826172 2.33616L2.35117 0.648926L2.61075 1.03829C2.64319 1.07073 3.45436 2.23882 4.71979 1.91435L4.88202 2.75797C3.6166 3.08244 2.70809 2.40105 2.25383 1.91435L1.92936 2.33616C2.48096 3.04999 3.64904 4.9319 3.64904 7.78722C3.64904 8.63084 3.81128 9.21488 4.13575 9.37712C4.36287 9.5069 4.71979 9.37712 5.04426 9.05265C5.88787 8.20903 6.50436 6.13244 6.50436 6.13244L7.21819 6.39201C7.18575 6.48935 6.53681 8.72818 5.53096 9.70159C5.10915 10.0909 4.68734 10.2856 4.29798 10.2856ZM16.8224 10.2856C16.9847 10.2856 17.1794 10.2532 17.3092 10.1558C17.731 9.92871 18.2501 9.34467 18.2501 7.78722C18.2501 4.5101 19.9698 2.66063 20.0022 2.62818L20.2943 2.33616L18.7693 0.648926L18.5097 1.03829C18.4772 1.07073 17.6661 2.23882 16.4006 1.91435L16.2384 2.75797C17.5038 3.08244 18.4123 2.40105 18.8666 1.91435L19.256 2.33616C18.7044 3.04999 17.5363 4.9319 17.5363 7.78722C17.5363 8.63084 17.374 9.21488 17.0496 9.37712C16.8224 9.5069 16.4655 9.37712 16.1411 9.05265C15.2974 8.20903 14.681 6.13244 14.681 6.13244L13.9671 6.39201C13.9996 6.48935 14.6485 8.72818 15.6544 9.70159C16.0113 10.0909 16.4331 10.2856 16.8224 10.2856ZM9.58681 8.07925H11.5661V16.0287H9.58681V8.07925Z" fill="#F2B200"/>
+                                  <path d="M9.97656 8.07922H11.1446V16.0287H9.97656V8.07922Z" fill="#FFCE31"/>
+                                  <path d="M4.00586 0.648926C4.55746 5.64573 7.28299 9.63669 10.5601 9.63669C13.8372 9.63669 16.5628 5.64573 17.1144 0.648926H4.00586Z" fill="#F2B200"/>
+                                  <path d="M5.27148 0.648926C5.72574 5.71063 7.93212 9.73403 10.5603 9.73403C13.1885 9.73403 15.3949 5.71063 15.8491 0.648926H5.27148Z" fill="#FFCE31"/>
+                                  <path d="M15.6224 17.5213H5.49902C5.49902 17.5213 7.7703 14.6011 10.5607 14.6011C13.3512 14.6011 15.6224 17.5213 15.6224 17.5213Z" fill="#F2B200"/>
+                                  <path d="M14.4211 17.5212H6.69873C6.69873 17.5212 8.41841 14.5361 10.5599 14.5361C12.7014 14.5361 14.4211 17.5212 14.4211 17.5212Z" fill="#FFCE31"/>
+                                  <path d="M4.00586 18.1702H17.1144V20.117H4.00586V18.1702Z" fill="#BC845E"/>
+                                  <path d="M5.49902 17.5212H15.6549V18.1702H5.49902V17.5212Z" fill="#916140"/>
+                                  <path d="M7.31543 18.6569H13.8048V19.6303H7.31543V18.6569Z" fill="#F2B200"/>
+                                  <path d="M4.00586 18.1702H4.6548V20.117H4.00586V18.1702Z" fill="#CE9C7A"/>
+                                  <path d="M16.4658 18.1702H17.1148V20.117H16.4658V18.1702Z" fill="#916140"/>
+                                  <path d="M7.64014 18.6569H13.4806V19.6303H7.64014V18.6569Z" fill="#FFCE31"/>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_130_7876">
+                                    <rect width="20.766" height="20.766" fill="white" transform="translate(0.177246)"/>
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                            </p>
+                            <p style="color: black;">1st World</p>
+                            <p>$1,038.44272</p>
+                        </div>
+
+                          <div class="overlay-bottom-left">
+                            <div class="contest-date">FROM AUG 16 TO SEP 6</div>
+                            <h2 class="contest-title">Dog Contest</h2>
+                            <p class="contest-text">$2,260 won · 6892 contestants</p>
+                            <!-- <a href="new-participant.html" class="btn-orange-all mx-auto new-part-btn-all">
+                                VIEW ALL PARTICIPATE
+                                <img src="assets/img/vector-9.svg">
+                            </a> -->
+                            <button class="btn-orange-all mx-auto new-part-btn-all">
+                                View The contest
+                                <img src="assets/img/vector-9.svg">
+                            </button>
+                          </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="image image-container">
+                        <img class="img-contest-winner" src="assets/img/rectangle-27.png" />
+
+                        <div class="overlay-top-right">
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+                                <g clip-path="url(#clip0_130_7876)">
+                                    <path d="M4.29798 10.2856C4.13575 10.2856 3.94107 10.2532 3.81128 10.1558C3.38947 9.92871 2.87032 9.34467 2.87032 7.78722C2.87032 4.54254 1.11819 2.66063 1.11819 2.66063L0.826172 2.33616L2.35117 0.648926L2.61075 1.03829C2.64319 1.07073 3.45436 2.23882 4.71979 1.91435L4.88202 2.75797C3.6166 3.08244 2.70809 2.40105 2.25383 1.91435L1.92936 2.33616C2.48096 3.04999 3.64904 4.9319 3.64904 7.78722C3.64904 8.63084 3.81128 9.21488 4.13575 9.37712C4.36287 9.5069 4.71979 9.37712 5.04426 9.05265C5.88787 8.20903 6.50436 6.13244 6.50436 6.13244L7.21819 6.39201C7.18575 6.48935 6.53681 8.72818 5.53096 9.70159C5.10915 10.0909 4.68734 10.2856 4.29798 10.2856ZM16.8224 10.2856C16.9847 10.2856 17.1794 10.2532 17.3092 10.1558C17.731 9.92871 18.2501 9.34467 18.2501 7.78722C18.2501 4.5101 19.9698 2.66063 20.0022 2.62818L20.2943 2.33616L18.7693 0.648926L18.5097 1.03829C18.4772 1.07073 17.6661 2.23882 16.4006 1.91435L16.2384 2.75797C17.5038 3.08244 18.4123 2.40105 18.8666 1.91435L19.256 2.33616C18.7044 3.04999 17.5363 4.9319 17.5363 7.78722C17.5363 8.63084 17.374 9.21488 17.0496 9.37712C16.8224 9.5069 16.4655 9.37712 16.1411 9.05265C15.2974 8.20903 14.681 6.13244 14.681 6.13244L13.9671 6.39201C13.9996 6.48935 14.6485 8.72818 15.6544 9.70159C16.0113 10.0909 16.4331 10.2856 16.8224 10.2856ZM9.58681 8.07925H11.5661V16.0287H9.58681V8.07925Z" fill="#F2B200"/>
+                                    <path d="M9.97656 8.07922H11.1446V16.0287H9.97656V8.07922Z" fill="#FFCE31"/>
+                                    <path d="M4.00586 0.648926C4.55746 5.64573 7.28299 9.63669 10.5601 9.63669C13.8372 9.63669 16.5628 5.64573 17.1144 0.648926H4.00586Z" fill="#F2B200"/>
+                                    <path d="M5.27148 0.648926C5.72574 5.71063 7.93212 9.73403 10.5603 9.73403C13.1885 9.73403 15.3949 5.71063 15.8491 0.648926H5.27148Z" fill="#FFCE31"/>
+                                    <path d="M15.6224 17.5213H5.49902C5.49902 17.5213 7.7703 14.6011 10.5607 14.6011C13.3512 14.6011 15.6224 17.5213 15.6224 17.5213Z" fill="#F2B200"/>
+                                    <path d="M14.4211 17.5212H6.69873C6.69873 17.5212 8.41841 14.5361 10.5599 14.5361C12.7014 14.5361 14.4211 17.5212 14.4211 17.5212Z" fill="#FFCE31"/>
+                                    <path d="M4.00586 18.1702H17.1144V20.117H4.00586V18.1702Z" fill="#BC845E"/>
+                                    <path d="M5.49902 17.5212H15.6549V18.1702H5.49902V17.5212Z" fill="#916140"/>
+                                    <path d="M7.31543 18.6569H13.8048V19.6303H7.31543V18.6569Z" fill="#F2B200"/>
+                                    <path d="M4.00586 18.1702H4.6548V20.117H4.00586V18.1702Z" fill="#CE9C7A"/>
+                                    <path d="M16.4658 18.1702H17.1148V20.117H16.4658V18.1702Z" fill="#916140"/>
+                                    <path d="M7.64014 18.6569H13.4806V19.6303H7.64014V18.6569Z" fill="#FFCE31"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_130_7876">
+                                    <rect width="20.766" height="20.766" fill="white" transform="translate(0.177246)"/>
+                                    </clipPath>
+                                </defs>
+                                </svg>
+                            </p>
+                            <p style="color: black;">1st World</p>
+                            <p>$1,038.44272</p>
+                        </div>
+
+                            <div class="overlay-bottom-left">
+                            <div class="contest-date">FROM SEP 6 TO SEP 27</div>
+                            <h2 class="contest-title">Cat Contest</h2>
+                            <p class="contest-text">$2,260 won · 6892 contestants</p>
+                            <!-- <a href="new-participant.html" class="btn-orange-all mx-auto new-part-btn-all">
+                                VIEW ALL PARTICIPATE
+                                <img src="assets/img/vector-9.svg">
+                            </a> -->
+                            <button class="btn-orange-all mx-auto new-part-btn-all">
+                                View The contest
+                                <img src="assets/img/vector-9.svg">
+                            </button>
+                            </div>
+                        </div>
+                </div>
+                    
+                <div class="win">
+                    <img class="logo-win" src="assets/img/trophy.png">
+                    <h3>They Won !</h3>
+            
+                    <ul role="list" class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                        <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200 pt-8">
+                            <img src="assets/img/ellipse-4.png" class="w-52 mx-auto">
+                        </li>
+            
+                        <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
+                            uigi
+                        </li>
+            
+                        <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
+                            uigi
+                        </li>
+            
+                        <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
+                            uigi
+                        </li>
+                    
+                    </ul>
+              
+                </div>
+
+            </div>
+
+            <div id="Tab2" class="tabcontent tabcontent grid grid-cols-2 gap-8">
+
+                    <div>
+                        <div class="image image-container">
+                            <img class="img-contest-winner" src="assets/img/rectangle-27.png" />
+                              <div class="overlay-bottom-center">
+                                <div class="contest-date">
+                                    FROM SEP 6 TO SEP 27
+                                </div>
+                                <h2 class="contest-title">Cat Contest</h2>
+                                <p class="contest-text">$2,260 won · 6892 contestants</p>
+                              </div>
+                        </div>
+                    </div>
+    
+                    <div>
+                        <div class="image image-container">
+                            <img class="img-contest-winner" src="assets/img/rectangle-27.png" />
+
+    
+                                <div class="overlay-bottom-center">
+                                <div class="contest-date">FROM SEP 6 TO SEP 27</div>
+                                <h2 class="contest-title">Cat Contest</h2>
+                                <p class="contest-text">$2,260 won · 6892 contestants</p>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Tab3" class="tabcontent">
+            <h3>Onglet 3</h3>
+            <p>Contenu de l'onglet 3...</p>
+            </div>
+        </div>
+
+        <!-- Footer section -->
+
+        <footer>
+            <div class="footer-content">
+            <p>Copyright &copy; 2023 PetWin</p>
+            </div>
+        </footer>
+
+        <script>
+            // Fonction pour ouvrir l'onglet sélectionné
+            function openTab(evt, tabName) {
+              var i, tabcontent, tablinks;
+              tabcontent = document.getElementsByClassName("tabcontent");
+              for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+              }
+              tablinks = document.getElementsByClassName("tablink");
+              for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].style.backgroundColor = "";
+              }
+              document.getElementById(tabName).style.display = "block";
+              evt.currentTarget.style.backgroundColor = "#ddd";
+            }
+
+            // Ouvrir l'onglet par défaut
+            document.getElementById("Tab1").click();
+            </script>
+
+    </body>
+</html>
